@@ -1,0 +1,11 @@
+Source: kmeans-postgresql
+Maintainer: Stanis Trendelenburg <stanis.trendelenburg@geops.de>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9), postgresql-server-dev-9.1
+
+Package: kmeans-postgresql
+Architecture: any
+Depends: ${shlib-depends}, ${misc:Depends}, postgresql-server-9.1
+Description: K-means function as a user-defined window function in PostgreSQL

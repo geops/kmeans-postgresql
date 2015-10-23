@@ -1,0 +1,5 @@
+kmeans-postgresql (1.1.0-1) UNRELEASED; urgency=medium
+
+  * Initial release.
+
+ -- Stanis Trendelenburg <stanis@stellwerk>  Thu, 22 Oct 2015 15:13:07 +0200
